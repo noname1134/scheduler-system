@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Local database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqbpro
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
